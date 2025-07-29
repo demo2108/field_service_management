@@ -12,6 +12,8 @@ export class LocationService {
       },
     });
 
+    console.log("gittest");
     return { address: response.data.display_name };
   }
+  
 }
