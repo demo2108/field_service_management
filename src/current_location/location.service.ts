@@ -12,7 +12,7 @@ export class LocationService {
       },
     });
 
-    console.log("gittest");
+    console.log("gittestttt");
     return { address: response.data.display_name };
   }
   
